@@ -240,7 +240,7 @@ toc
 %----- MODELO DE TRAJETORIA MASSA-PONTO MODIFICADO (INERTE)
 function TRAJ = MTMPM_IN(PROJ)
     
-    g0 RT omega P0 T0 R K B Pb d m m1 Ix Ix1 Az lat QD QM tab_coef_in rho acc
+    global g0 RT omega P0 T0 R K B Pb d m m1 Ix Ix1 Az lat QD QM tab_coef_in rho acc
 
     Vel = [PROJ(1), PROJ(2), PROJ(3)];
     Pos = [PROJ(4), PROJ(5), PROJ(6)];
